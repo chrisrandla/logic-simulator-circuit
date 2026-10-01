@@ -3,6 +3,38 @@
 #include <gates.h>
 
 int main() {
+	int a, b, result;
+	char gatechoice;
+	printf""Enter two binary inputs(0 or 1) : ";
+		scanf("%d %d", &a, &b);
+	printf("Select the logic gate to perform: NOT, AND, NAND, OR, NOR, XOR, XNOR \n");
+	scanf(" %c", &gatechoice);
+	case(gatechoice) {
+	case 'Not':
+		result = notGATE(a, b);
+		break;
+	case 'AND':
+		result = andGATE(a, b);
+		break;
+	case 'NAND':
+		result = nandGATE(a, b);
+		break;
+	case 'OR':
+		result = orGATE(a, b);
+		break;
+	case 'NOR':
+		result = norGATE(a, b);
+		break;
+	case 'XOR':
+		result = xorGATE(a, b);
+		break;
+	case 'XNOR':
+		result = xnorGATE(a, b);
+		break;
+	default:
+		printf("Invalid gate choice. Please select a valid gate.\n");
+		return 1;
+	}
 
 }
 // Functions of logic gates 
