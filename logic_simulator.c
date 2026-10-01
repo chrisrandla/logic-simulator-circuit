@@ -38,7 +38,7 @@ int main() {
 
 }
 // Functions of logic gates 
-int notGATE(int a, int b); {
+int notGATE(int a,); {
 	int x; 
 	if (a == 1) {
 		x = 0;
