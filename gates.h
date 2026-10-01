@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int notGATE(int a, int b);
+int notGATE(int a);
 int andGATE (int a, int b);
 int nandGATE(int a, int b);
 int orGATE (int a, int b);
