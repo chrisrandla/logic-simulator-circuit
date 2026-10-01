@@ -1,6 +1,6 @@
 #include<stdio.h>
-#include <gates.h>
-#include <logic_simulator.c>
+#include "gates.h"
+#include "logic_simulator.c"
 
 int main() {
 	//user enters two variables 

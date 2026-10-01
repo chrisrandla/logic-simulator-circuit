@@ -1,6 +1,6 @@
 //Header files including function prototyeps
 #include <stdio.h>
-#include <gates.h>
+#include "gates.h"
 
 int main() {
 	int a, b, result;
