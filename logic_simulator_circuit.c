@@ -1,18 +1,19 @@
 #include<stdio.h>
 #include "gates.h"
-#include "logic_simulator.c"
+#include "gates.c"
+
 
 int main() {
 	//user enters two variables 
 	int a, b, circuit_a, circuit_b;
-	printf("Enter two binary inputs (0 or 1): ");
+	printf("Enter two binary inputs (0 orgit  1): ");
 	scanf("%d %d", &a, &b);
 // Circuit A
 	int atemp1= andGATE(a, b);
 	int nota = notGATE(a);
 	int notb = notGATE(b);
 	int atemp2 = andGATE(nota, notb);
-	circuit_a = orGATE(temp1, temp2);
+	circuit_a = orGATE(atemp1, atemp2);
 // Circuit B
 	int btemp1 = andGATE(nota, b);
 	int btemp2= andGATE(a, notb);

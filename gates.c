@@ -1,5 +1,6 @@
 #include "gates.h"
-int notGATE(int a, ); {
+int notGATE(int a);
+{
 	int x;
 	if (a == 1) {
 		x = 0;
@@ -13,7 +14,8 @@ int notGATE(int a, ); {
 	return x;
 }
 
-int andGATE(int a, int b); {
+int andGATE(int a, int b);
+{
 	int x;
 	if (a == 1 && b == 1) {
 		x = 1;
@@ -27,7 +29,8 @@ int andGATE(int a, int b); {
 	return x;
 }
 
-int nandGATE(int a, int b); {
+int nandGATE(int a, int b); 
+{
 	int x;
 	if (a == 1 && b == 1) {
 		x = 0;
@@ -41,7 +44,8 @@ int nandGATE(int a, int b); {
 	return x;
 }
 
-int orGATE(int a, int b); {
+int orGATE(int a, int b)
+{
 	int x;
 	if (a == 0 && b == 0) {
 		x = 0;
@@ -55,7 +59,8 @@ int orGATE(int a, int b); {
 	return x;
 }
 
-int norGATE(int a, int b); {
+int norGATE(int a, int b);
+{
 	int x;
 	if (a == 0 && b == 0) {
 		x = 1;
@@ -69,7 +74,8 @@ int norGATE(int a, int b); {
 	return x;
 }
 
-int xorGATE(int a, int b); {
+int xorGATE(int a, int b);
+{
 	int x;
 	if (a == 1 && b == 0) {
 		x = 1;
@@ -89,7 +95,8 @@ int xorGATE(int a, int b); {
 	return x;
 }
 
-int xnorGATE(int a, int b); {
+int xnorGATE(int a, int b); 
+{
 	int x;
 	if (a == 1 && b == 1) {
 		x = 1;
