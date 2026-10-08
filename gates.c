@@ -115,3 +115,20 @@ int xnorGATE(int a, int b);
 	}
 	return x;
 }
+
+int AND_N(int arr[8]) {
+	if arr[0] == 1 && arr[1] == 1 && arr[2] == 1 && arr[3] == 1 && arr[4] == 1 && arr[5] == 1 && arr[6] == 1 && arr[7] == 1 {
+		return 1;
+	}
+	else {
+		return 0;
+	}
+}
+
+int OR_N(int arr[8]) {
+	if arr[0] == 1 || arr[1] == 1 || arr[2] == 1 || arr[3] == 1 || arr[4] == 1 || arr[5] == 1 || arr[6] == 1 || arr[7] == 1 {
+		return 1;
+	}
+	else {
+		return 0;
+	}
